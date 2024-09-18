@@ -175,10 +175,16 @@ function MainComponent({ activePage }) {
           <h2 className="text-xl font-semibold bg-teal-800 text-white p-3 mb-4">オウンドメディア事業</h2>
           <div className="bg-white shadow overflow-hidden sm:rounded-lg p-6">
             <p className="mb-4">
-              クライアント企業のオウンドメディア運用を、戦略立案から実務まで一貫してサポートします。私たちのサービスには以下が含まれます：
+              海斗株式会社は、デジタル時代の情報ニーズに応える自社メディアを運営しています。私たちは、単なる情報の提供にとどまらず、読者の生活に真の価値をもたらすことを目指しています。
             </p>
 
-            <p className="mb-8">当社の豊富な経験と専門知識を活かし、クライアントのメディアを成功に導きます。</p>
+            <p className="mb-8">弊社は以下のオウンドメディアを運営しています。</p>
+
+            <ul className="list-disc pl-5 space-y-2 mb-4">
+              <li>仮（フードデリバリー情報）</li>
+              <li>仮（お小遣い稼ぎ情報、金融系）</li>
+              <li>仮（テクノロジー情報、暗号資産など）</li>
+            </ul>
 
             <h3 className="text-2xl font-bold mb-6 text-center text-teal-800">メディア運営の4つの柱</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
