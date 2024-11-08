@@ -12,6 +12,10 @@ const nextConfig = {
     return {
       beforeFiles: [
         {
+          source: '/delivery',
+          destination: 'http://160.251.148.143/delivery'
+        },
+        {
           source: '/delivery/:path*',
           destination: 'http://160.251.148.143/delivery/:path*'
         }
