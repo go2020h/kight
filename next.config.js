@@ -13,7 +13,7 @@ const nextConfig = {
       beforeFiles: [
         {
           source: '/delivery/:path*',
-          destination: 'https://delivery.kightblog.co.jp/:path*'
+          destination: 'http://160.251.148.143/delivery/:path*'
         }
       ]
     }
