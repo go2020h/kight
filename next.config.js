@@ -9,12 +9,14 @@ const nextConfig = {
   },
 
   async rewrites() {
-    return [
-      {
-        source: '/delivery/:path*',
-        destination: 'http://160.251.148.143/:path*'
-      }
-    ]
+    return {
+      beforeFiles: [
+        {
+          source: '/delivery/:path*',
+          destination: 'https://delivery.kightblog.co.jp/:path*'
+        }
+      ]
+    }
   }
 }
 
